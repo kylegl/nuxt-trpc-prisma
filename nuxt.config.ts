@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  build: {
+    transpile: ['trpc-nuxt'],
+  },
+
   imports: {
     dirs: ['prisma']
   }
