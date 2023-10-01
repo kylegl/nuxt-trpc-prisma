@@ -3,11 +3,16 @@
 // how to import this type from the server?
 import { HelloInput } from '~/server/trpc/appRouter'
 
-const queryInput: HelloInput = ''
+const { useHelloQuery } = useQuery()
+
+const input = ref<HelloInput['text']>('')
+
+const { data } = useHelloQuery(input)
 </script>
 
 <template>
 <div>
-  HI
+  <h1>home page</h1>
+  <div>{{ data }}</div>
 </div>
 </template>
