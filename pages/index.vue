@@ -14,5 +14,6 @@ const { data } = useHelloQuery(input)
 <div>
   <h1>home page</h1>
   <div>{{ data }}</div>
+  <Ad ad-slot="slot"/>
 </div>
 </template>

@@ -8,5 +8,12 @@ export default defineNuxtConfig({
 
   imports: {
     dirs: ['prisma']
+  },
+
+  modules: ['@kylegl/google-adsense'],
+
+  googleAdsense: {
+    id: 'ca-pub-XXXXXXXXXX',
   }
+
 })
