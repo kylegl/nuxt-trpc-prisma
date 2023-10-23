@@ -10,10 +10,10 @@ export default defineNuxtConfig({
     dirs: ['prisma']
   },
 
-  modules: ['@kylegl/google-adsense'],
+  modules: ['@nuxtjs/supabase'],
 
-  googleAdsense: {
-    id: 'ca-pub-XXXXXXXXXX',
-  }
+  supabase: {
+    redirect: false,
+  },
 
 })

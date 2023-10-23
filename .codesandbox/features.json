@@ -1,0 +1,8 @@
+{
+  "vue": {
+    // Whether to enable Vue LSP for TS files
+    "takeOverMode": true,
+    // Whether to enable component inspector functionality in the editor for Vue
+    "inspector": true
+  }
+}
